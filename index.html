@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20c0260dba.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hi there! I am</div>
+                <div class="text-2">Arpita Singh</div>
+                <div class="text-3">I am a budding <span>web developer.</span></div>
+                <a href="#contact">Get in touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/profilepic.jpeg" alt="profile">
+                </div>
+                <div class="column right">
+                    <div class="text">I am Arpita Singh, a budding <span>web developer</span> </div>
+                    <p>I am a second year student, pursuing a Bachelor's degree in Computer Science Engineering from SRM Institute of Science and Technology, Kattankulathur. I have a keen interest in web development. I have designed static webpages including this one using HTML and CSS and I am currently working on learning Javascript. I am also enthusiastic about competitive coding.</p> 
+                    <a href="CV Arpita.pdf">Download CV</a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Skills</h2>
+            <div class="skills-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-magic"></i>
+                        <div class="text">Web Development</div>
+                        <p>I am actively interested in web development. I am skilled in HTML and CSS and learning Javascript.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-laptop-code"></i>
+                        <div class="text">C/C++</div>
+                        <p>I am proficient in C and C++ programming. I am also interested in competitive coding.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-pen-alt"></i>
+                        <div class="text">Content Writing</div>
+                        <p>I have a 3 months' experience working as a content writer in a reputed college club at SRMIST.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="column left">
+                        
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub-title">Arpita Singh</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="head">Address</div>
+                                    <div class="sub-title">Patna, Bihar</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">singharpita1303@gmail.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column right">
+                        <div class="text">Leave a message</div>
+                        <form action="#">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="field email">
+                                    <input type="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="field textarea">
+                                <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            </div>
+                            <div class="button-area">
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="max-width">
+                    <div class="footer-content">
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <div class="info">
+                                    <div class="sub-title"><a href="https://in.linkedin.com/in/arpitasingh1301/">Arpita Singh</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icons">    
+                            <div class="row">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                                <div class="info">
+                                    <div class="sub-title"><a href="https://github.com/arpitasingh13/">arpitasingh13</a></div>
+                                </div>
+                            </div>
+                        </div>    
+                        </div>
+                    </div>
+                </div>
+                
+            </footer>
+        
+        </section>
+    
+    </section>
+
+    
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
